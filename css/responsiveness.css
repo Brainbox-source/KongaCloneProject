@@ -1,0 +1,290 @@
+@media screen and (max-width: 576px) {
+    :is(.konga-Logistic, .section-1, .section-2, .section-3, .section-4, .footer-head, .footer-bottom) {
+        display: none;
+    }
+
+    .konga-logistic-mobile {
+        display: block;
+        background-color: #ed017f;
+        padding: 1em;
+    }
+
+    .konga-logisticlogo-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .whole-section-mobile {
+        height: 180vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/images/kongalorry.png);
+        background-size: cover;
+        width: 100%;
+        padding: 0 1em 0 1em;
+    }
+
+    .section1-mobile {
+        display: block;
+    }
+
+    .head1-mobile {
+        text-align: center;
+        font-size: min(5rem, 4vh);
+        color: #fff;
+        font-weight: 900;
+    }
+    
+    .section1-child-mobile > p {
+        color: #fff;
+        text-align: center;
+        font-size: min(4rem, 3vh);
+        margin: 1em 0 1em 0;
+        line-height: 1.5;
+    }
+
+    .section1-child1-mobile label {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .section1-child1-mobile input {
+        height: 55px;
+        width: 100%;
+        outline: none;
+        font-size: 1em;
+        padding: 0 13.5em 0 1.5em;
+        border-radius: 0.3em;
+        border: none;
+    }
+    
+    .section1-child1-mobile input::placeholder {
+        font-size: 14px;
+        color: #00000062;
+    }
+    
+    .whole-input-mobile {
+        position: relative;
+        margin: 0.5em 0 0.5em 0;
+    }
+    
+    .an1-mobile {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 2.8em;
+        width: 10em;
+        margin: 0 0.5em 0.35em 0;
+        font-size: 16px;
+        background-color: #ed017f;
+        border: none;
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+        border-bottom-left-radius: 0.5em;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .an1-mobile:hover {
+        background-color: #ed017fd2;
+    }
+
+    .section1-mobile-child2 {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        /* padding: 20px; */
+    }
+    
+    .picture-mobile-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 90px;
+        width: 280px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: rgba(0, 0, 0, 0.404);
+        margin: 0.4em;
+        border-radius: 0.5em;
+        cursor: pointer;
+    }
+    
+    .p-1 {
+        font-size: 11px;
+        color: #757575;
+        text-align: center;
+    }
+    
+    .h3-1 {
+        font-size: 14px;
+        color: #757575;
+    }
+    
+    .picture-mobile-one:hover {
+        border: 1px solid #ed017f;
+        background: transparent;
+        backdrop-filter: blur(1px);
+        background-color: #ffffffde;
+    }
+    
+    :is(.h3-2, .h3-3) {
+        font-size: 14px;
+        color: #757575;
+    }
+    
+    
+    :is(.p-2, .p-3) {
+        font-size: 11px;
+        color: #757575;
+        text-align: center;
+    }
+    
+    .play-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .play-mobile-one {
+        color: white;
+    }
+
+    .section2-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fcdfee;
+        padding: 30px 100px 30px 100px;
+        color: #333;
+    }
+
+    .kongalap-mobile {
+        height: 200px;
+        width: 300px;
+    }
+
+    .kongaman-mobile {
+        height: 200px;
+        width: 300px;
+    }
+
+    .kongavan-mobile {
+        height: 200px;
+        width: 300px;
+    }
+    
+    .whole-section2man-mobile {
+        padding: 1px 5px 1px 5px;
+    }
+    
+    :is(.h3-lap, .h3-van, .h3-man) {
+        font-size: 20px;
+        padding: 8px 0 8px 0;
+    }
+    
+    .section-mobile-4 {
+        display: flex;
+        background-color: #ed017f;
+    }
+    .section4-mobile-child {
+        color: white;
+        line-height: 1.5;
+        padding: 3em 1em 3em 1em;
+    }
+    
+    .section4-mobile-h3 {
+        font-size: 20px;
+    }
+    
+    .section4-mobile-p {
+        font-size: 12px;
+        margin-bottom: 3em;
+    }
+
+    .an2-mobile {
+        text-decoration: none;
+        font-size: 14px;
+        color: #fff;
+        background-color: black;
+        padding: 1em 2em 1em 2em;
+    }
+    
+    .an2-mobile:hover {
+        color: #ffffffe3;
+        background-color: #000000d8;
+    }
+
+    .footer-mobile-head {
+        display: flex;
+        flex-direction: column;
+        padding: 2em 1.5em 2em 1.5em;
+        background-color: rgba(0, 0, 0, 0.767);
+    }
+    .footer-mobile-text {
+        width: 100%;
+        line-height: 2;
+    }
+    
+    .footer-mobile-text a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .footer-mobile-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000c0;
+        padding: 1em 0 1em 0;
+        font-size: 16px;
+    }
+    
+    .footer-mobile-bottom p {
+        color:#fff;
+    }
+
+    .footer-mobile-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000d5;
+        padding: 1em 0 1em 0;
+        font-size: 14px;
+    }
+    
+    .footer-mobile-bottom p {
+        color:#fff;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .section-2 {
+        overflow: auto;
+        padding-right: 0.5em;
+    } 
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .section-2 {
+        overflow: auto;
+        padding-right: 0.5em;
+    } 
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1114px) {
+    .section-2 {
+        overflow: auto;
+        padding-right: 0.5em;
+    } 
+}

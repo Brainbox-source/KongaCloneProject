@@ -1,0 +1,1494 @@
+@media screen and (max-width: 576px) {
+    :root {
+        --BGMARGIN: -1em 0.5em 0 0.5em;
+    }
+
+    body {
+        background-color: #0000000f;
+    }
+    
+    .gif, .nav-one, .nav-two, .nav-three {
+        display: none;
+    }
+
+    .nav-xsmall {
+        display: block;
+        padding: 0.8em;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .whole-xsmall {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0.8em;
+    }
+
+    .gif-xsmall {
+        display: none;
+    }
+
+    .kongas-logistics-ulset {
+        display: none;
+    }
+
+    .bar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9.5px;
+    }
+
+    .smile3 {
+        width: 82px;
+        height: 23px;
+    }
+
+    .bar-logo > .fa-bars {
+        font-size: 20px;
+    }
+
+    .house-icon {
+        word-spacing: 10px;
+    }
+
+    .house-icon > .fa-home {
+        font-size: 26px;
+        color: #000000e2;
+    }
+
+    .house-icon > .fa-shopping-basket {
+        font-size: 21px;
+        color: #000000e2;
+    }
+
+    .xsmall-input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .xsmall-input input {
+        width: 100%;
+        height: 35px;
+        outline: none;
+        padding: 0 4em 0 1em;
+        background-color: #00000015;
+        border: none;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .fa-search {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        text-align: center;
+        color: #0000005b;
+        padding: 0.5em 0 0.6em 0;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .nav-icons-five {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 6.8em 0.8em 0.5em 0.8em;
+        background-color: #fff;
+    }
+
+    .nav-icons-five i {
+        font-size: 22.5px;
+        color: #000000d3;
+    }
+
+    .nav-icons-five p {
+        font-size: 15px;
+        color: #000000e2;
+    }
+
+    .whole-xlarge {
+        display: none;
+    }
+
+    .section-one-top, .section-one-bottom {
+        display: none;
+    }
+
+    .section-one-xsmall {
+        display: block;
+        margin: var(--BGMARGIN);
+    }
+
+    .top-img-xsmall img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .bottom-imgs-xsmall img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .bottom-imgs-top {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6em;
+        margin-top: 1em;
+    }
+
+    .bottom-imgs-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6em;
+        margin-top: 0.8em;
+    }
+
+    .section-one-bottom1 {
+        display: none;
+    }
+
+    .section-two-headin, .section-two-atxts {
+        display: none;
+    }
+
+    .small-screen-size {
+        display: block;
+        margin: var(--BGMARGIN);
+        margin-top: 2em;
+        margin-bottom: 2em;
+        background: radial-gradient(#ed017f, #94004f);
+    }
+
+    .section-two-headin-xs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(#ed017f, #94004f);
+        gap: 3em;
+        font-weight: 600;
+        padding: 0.2em 0 0.2em 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .section-two-atxts-xs {
+        background: radial-gradient(#ed017f, #94004f);
+        display: grid;
+        grid-template-columns: repeat(6, calc(100% / 2));
+        gap: 0.2em;
+        padding: 0.3em 0 0 0;
+        overflow: auto;
+    }
+
+    .section-two-headin-xs h2 {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .starlink-standard-aset-xs {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .starlink-standard-xs {
+        background-color: #fff;
+        padding: 0 0.2em 0 0.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .starlink-standard-xs-img img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .starlink-standard-xs-txts {
+        line-height: 1.6;
+        font-weight: 700;
+    }
+
+    .starlink-standard-xs-txts p {
+        font-size: 18px;
+    }
+
+    .indent-txts-xs {
+        font-size: 15px;
+        word-spacing: 0.5em;
+    }
+    
+    .indent5-txts-xs {
+        font-size: 14px;
+    }
+
+    .price-del-xs {
+        color: #0000009a;
+    }
+
+    .price-discount-xs {
+        color: #fff;
+        font-size: 0.75em;
+        border-radius: 5px;
+        padding: 0.2em;
+        background-color: var(--LIGHTPINK-COLOR);
+    }
+    
+    .indent5-txts-xs {
+        color: #33b27b;
+    }
+
+    .default-screen-size {
+        margin: var(--BGMARGIN);
+        margin-top: 1em;
+    }
+
+    .section-three-headin h2 {
+        font-size: 25px;
+    }
+    
+
+    .section-three-atxts {
+        gap: 0.3em;
+    }
+
+    .starlink-three-standard-img img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .starlink-three-standard-txts {
+        line-height: 1.6;
+        font-weight: 700;
+    }
+
+    .three-price-del {
+        color: #0000007e;
+    }
+
+    .section-four-headin h2 {
+        font-size: 20px;
+    }
+
+    .section-four-headin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+        margin-bottom: 0.8em;
+    }
+
+    .starlink-three-standard-img-four img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .section-four-atxts {
+        gap: 0.3em;
+    }
+ 
+    .section-five {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+    }
+
+    .section-five-imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    .section-six {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+    }
+
+    .section-six-imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-imgs-six img {
+        width: 100%;
+    }
+
+    .img-links-head {
+        display: none;
+    }
+
+    .second-head-img img {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 1em 1em 0.8em 1em;
+        margin-top: 1.5em;
+    }
+
+    .img-other-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .img-other-links img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .home-fitness-kids-deals {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-home img {
+        height: inherit;
+    }
+
+    .home-heading {
+        font-size: 22px;
+    }
+    
+    .home-paragraph {
+        font-size: 1.1em;
+    }
+    
+    .home-fit-kidds-aset {
+        font-size: 1.3em;
+    }
+
+    .section-eight {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+        margin-bottom: 4.5em;
+    }
+
+    .konga-comments-head {
+        font-size: 25px;
+    }
+    
+    .konga-comments-txts {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .footer-other-screen {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0.9em 0.8em 1.2em 0.8em;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer-other-screen p {
+        font-size: 18px;
+    }
+
+    .except-link {
+        color: #94004f;
+    }
+
+    .footer-head, .footer-bottom, .footer-side-icon, .back-to-top {
+        display: none;
+    }
+
+    .loading {
+        animation: loading 2s 4s linear 1 forwards;
+    }
+
+    .loading-paragraph {
+        font-size: 1.1em;
+        text-align: center;
+    }
+        
+    .loading-paragraph2 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .moving-icons-child {
+        margin: .1em;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    :root {
+        --BGMARGIN: -1em 0.5em 0 0.5em;
+    }
+    
+    body {
+        background-color: #0000000f;
+    }
+    
+    .gif, .nav-one, .nav-two, .nav-three {
+        display: none;
+    }
+
+    .nav-xsmall {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        display: block;
+        padding: 0.8em;
+        background-color: #fff;
+    }
+
+    .whole-xsmall {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 0.8em;
+    }
+
+    .kongas-logistics-ulset {
+        display: none;
+    }
+
+    .bar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9.5px;
+    }
+
+    .smile3 {
+        width: 82px;
+        height: 23px;
+    }
+
+    .bar-logo > .fa-bars {
+        font-size: 20px;
+    }
+
+    .house-icon {
+        word-spacing: 10px;
+    }
+
+    .house-icon > .fa-home {
+        font-size: 26px;
+        color: #000000e2;
+    }
+
+    .house-icon > .fa-shopping-basket {
+        font-size: 21px;
+        color: #000000e2;
+    }
+
+    .xsmall-input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .xsmall-input input {
+        width: 100%;
+        height: 35px;
+        outline: none;
+        padding: 0 4em 0 1em;
+        background-color: #00000015;
+        border: none;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .fa-search {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        text-align: center;
+        background-color: #fba100;
+        color: #ed017f;
+        padding: 0.5em 0 0.6em 0;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .nav-icons-five {
+        display: block;
+        margin: 0 0 0.5em 0;
+        padding: 0.9em 0.8em 1.2em 0.8em;
+        background-color: #fff;
+    }
+
+    .nav-icons-five {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6.8em 3em 0 3em;
+    }
+
+    .nav-icons-five i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22.5px;
+        color: #000000d3;
+    }
+
+    .nav-icons-five p {
+        font-size: 15px;
+        color: #ed017f;
+    }
+
+    .whole-xlarge {
+        display: none;
+    }
+
+    .section-one-top, .section-one-bottom {
+        display: none;
+    }
+
+    .section-one-xsmall {
+        display: block;
+        margin: var(--BGMARGIN);
+    }
+
+    .top-img-xsmall img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .bottom-imgs-xsmall img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .bottom-imgs-top {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6em;
+        margin-top: 1em;
+    }
+
+    .bottom-imgs-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6em;
+        margin-top: 0.8em;
+    }
+
+    .section-one-bottom1 {
+        display: none;
+    }
+
+    .section-two-headin, .section-two-atxts {
+        display: none;
+    }
+
+    .small-screen-size {
+        display: block;
+        margin: var(--BGMARGIN);
+        margin-top: 2em;
+        margin-bottom: 2em;
+        background: radial-gradient(#ed017f, #94004f);
+    }
+
+    .section-two-headin-xs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(#ed017f, #94004f);
+        gap: 3em;
+        font-weight: 600;
+        padding: 0.2em 0 0.2em 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .section-two-atxts-xs {
+        background: radial-gradient(#ed017f, #94004f);
+        display: grid;
+        grid-template-columns: repeat(6, calc(100% / 2));
+        gap: 0.2em;
+        padding: 0.3em 0 0 0;
+        overflow: auto;
+    }
+
+    .section-two-headin-xs h2 {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .starlink-standard-aset-xs {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .starlink-standard-xs {
+        background-color: #fff;
+        padding: 0 0.2em 0 0.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .starlink-standard-xs-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .starlink-standard-xs-txts {
+        line-height: 1.6;
+        font-weight: 700;
+    }
+
+    .starlink-standard-xs-txts p {
+        font-size: 18px;
+    }
+
+    .indent-txts-xs {
+        font-size: 16px;
+        word-spacing: 0.5em;
+    }
+    
+    .indent5-txts-xs {
+        font-size: 15px;
+    }
+
+    .price-del-xs {
+        color: #0000009a;
+    }
+
+    .price-discount-xs {
+        color: #fff;
+        font-size: 0.75em;
+        border-radius: 5px;
+        padding: 0.2em;
+        background-color: var(--LIGHTPINK-COLOR);
+    }
+    
+    .indent5-txts-xs {
+        color: #33b27b;
+    }
+
+    .default-screen-size {
+        margin: var(--BGMARGIN);
+        margin-top: 1em;
+    }
+
+    .section-three-headin h2 {
+        font-size: 25px;
+    }
+    
+
+    .section-three-atxts {
+        gap: 0.3em;
+    }
+
+    .starlink-three-standard-img img {
+        width: 151px;
+        height: 100px;
+    }
+
+    .starlink-three-standard-txts {
+        line-height: 1.6;
+        font-weight: 700;
+    }
+
+    .three-price-del {
+        color: #0000007e;
+    }
+
+    .default-screen-size {
+        margin: var(--BGMARGIN);
+        margin-top: 1em;
+    }
+
+    .section-three-headin h2 {
+        font-size: 25px;
+    }
+    
+
+    .section-three-atxts {
+        gap: 0.3em;
+    }
+
+    .starlink-three-standard-img img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .starlink-three-standard-txts {
+        line-height: 1.6;
+        font-weight: 700;
+    }
+
+    .three-price-del {
+        color: #0000007e;
+    }
+
+    .section-four-headin h2 {
+        font-size: 20px;
+    }
+
+    .section-four-headin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+        margin-bottom: 0.8em;
+    }
+
+    .starlink-three-standard-img-four img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .section-four-atxts {
+        gap: 0.3em;
+    }
+
+    .section-five {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+    }
+
+    .section-five-imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    .section-six {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+    }
+
+    .section-six-imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .all-imgs-six img {
+        width: 100%;
+    }
+
+    .img-links-head {
+        display: none;
+    }
+
+    .second-head-img img {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 1em 1em 0.8em 1em;
+        margin-top: 1.5em;
+    }
+
+    .img-other-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .img-other-links img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .home-fitness-kids-deals {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-home img {
+        height: inherit;
+    }
+
+    .home-heading {
+        font-size: 25px;
+    }
+    
+    .home-paragraph {
+        font-size: 1.3em;
+    }
+    
+    .home-fit-kidds-aset {
+        font-size: 1.5em;
+    }
+
+    .section-eight {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+        margin-bottom: 4.5em;
+    }
+
+    .konga-comments-head {
+        font-size: 28px;
+    }
+    
+    .konga-comments-txts {
+        font-size: 23px;
+        line-height: 1.5;
+    }
+
+    .footer-other-screen {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0.9em 0.8em 1.2em 0.8em;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer-other-screen p {
+        font-size: 20px;
+    }
+
+    .except-link {
+        color: #94004f;
+    }
+
+    .footer-head, .footer-bottom, .footer-side-icon, .back-to-top {
+        display: none;
+    }
+
+    .loading-paragraph {
+        font-size: 1.1em;
+        text-align: center;
+    }
+        
+    .loading-paragraph2 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .moving-icons-child {
+        margin: .1em;
+    }   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    :root {
+        --BGMARGIN: -1em 0.5em 0 0.5em;
+    }
+
+    body {
+        background-color: #0000000f;
+    }
+    
+    .gif, .nav-one, .nav-two, .nav-three {
+        display: none;
+    }
+
+    .nav-xsmall {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        display: block;
+        padding: 0.8em;
+        background-color: #fff;
+    }
+
+    .whole-xsmall {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 0.8em;
+    }
+
+    .gif-xsmall {
+        display: none;
+    }
+
+    .kongas-logistics, .kongas-logistics-ulset {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kongas-logistics-liset {
+        list-style-type: none;
+        word-spacing: 0.5em;
+        font-weight: 900;
+    }
+
+    .kongas-logistics i {
+        padding-left: 0.8em;
+    }
+
+    .credit-pay {
+        color: #ed017f;
+    }
+
+    .heart-konga {
+        color: #ed017f;
+    }
+
+    .fa-ellipsis-v {
+        color: #fba100;
+    }
+
+    .bar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9.5px;
+    }
+
+    .smile3 {
+        width: 82px;
+        height: 23px;
+    }
+
+    .bar-logo > .fa-bars {
+        font-size: 20px;
+    }
+
+    .house-icon {
+        word-spacing: 10px;
+    }
+
+    .house-icon > .fa-home {
+        font-size: 26px;
+        color: #ed017f;
+    }
+
+    .house-icon > .fa-shopping-basket {
+        font-size: 21px;
+        color: #000000e2;
+    }
+
+    .xsmall-input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .xsmall-input input {
+        width: 100%;
+        height: 35px;
+        outline: none;
+        padding: 0 4em 0 1em;
+        background-color: #00000015;
+        border: none;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .fa-search {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        text-align: center;
+        background-color: #fba100;
+        color: #ed017f;
+        padding: 0.5em 0 0.6em 0;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    .nav-icons-five {
+        display: block;
+        margin: 0 0 0.5em 0;
+        padding: 6.5em 0.8em 0.5em 0.8em;
+        background-color: #fff;
+    }
+
+    .nav-icons-five {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-icons-five i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22.5px;
+        color: #000000d3;
+    }
+
+    .nav-icons-five p {
+        font-size: 15px;
+        color: #000000e2;
+    }
+
+    .whole-xlarge {
+        display: none;
+    }
+
+    .section-one-top, .section-one-bottom {
+        display: none;
+    }
+
+    .section-one-xsmall {
+        display: block;
+        margin: var(--BGMARGIN);
+    }
+
+    .top-img-xsmall img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .bottom-imgs-xsmall img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .bottom-imgs-top {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6em;
+        margin-top: 1em;
+    }
+
+    .bottom-imgs-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.6em;
+        margin-top: 0.8em;
+    }
+
+    .section-one-bottom1 {
+        display: none;
+    }
+
+    .section-two-headin, .section-two-atxts {
+        display: none;
+    }
+
+    .small-screen-size {
+        display: block;
+        margin: var(--BGMARGIN);
+        margin-top: 2em;
+        margin-bottom: 2em;
+        background: radial-gradient(#ed017f, #94004f);
+    }
+
+    .section-two-headin-xs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(#ed017f, #94004f);
+        gap: 3em;
+        font-weight: 600;
+        padding: 0.2em 0 0.2em 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .section-two-atxts-xs {
+        background: radial-gradient(#ed017f, #94004f);
+        display: grid;
+        grid-template-columns: repeat(6, calc(100% / 2));
+        gap: 0.2em;
+        padding: 0.3em 0 0 0;
+        overflow: auto;
+    }
+
+    .section-two-headin-xs h2 {
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .starlink-standard-aset-xs {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .starlink-standard-xs {
+        background-color: #fff;
+        padding: 0 0.2em 0 0.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .starlink-standard-xs-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .starlink-standard-xs-txts {
+        line-height: 1.6;
+        font-weight: 700;
+    }
+
+    .starlink-standard-xs-txts p {
+        font-size: 17px;
+    }
+
+    .indent-txts-xs {
+        font-size: 16px;
+        word-spacing: 0.5em;
+    }
+    
+    .indent5-txts-xs {
+        font-size: 15px;
+    }
+
+    .price-del-xs {
+        color: #0000009a;
+    }
+
+    .price-discount-xs {
+        color: #fff;
+        font-size: 0.75em;
+        border-radius: 5px;
+        padding: 0.2em;
+        background-color: var(--LIGHTPINK-COLOR);
+    }
+    
+    .indent5-txts-xs {
+        color: #33b27b;
+    }
+
+    .default-screen-size {
+        margin: var(--BGMARGIN);
+        margin-top: 1em;
+    }
+
+    .section-three-headin h2 {
+        font-size: 32px;
+    }
+    
+
+    .section-three-atxts {
+        gap: 0.3em;
+    }
+
+    .starlink-three-standard-img img {
+        width: 180px;
+        height: 150px;
+    }
+
+    .starlink-three-standard-txts {
+        line-height: 1.6;
+        font-weight: 700;
+    }
+
+    .three-price-del {
+        color: #0000007e;
+    }
+
+    .section-five {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+    }
+
+    .section-five-imgs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
+
+    .section-six {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+    }
+
+    .section-six-imgs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .all-imgs-six img {
+        width: 100%;
+    }
+
+    .img-links-head {
+        display: none;
+    }
+
+    .second-head-img img {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #fff;
+        padding: 1em 1em 0.8em 1em;
+        margin-top: 1.5em;
+    }
+
+    .img-other-links {
+        flex-direction: column;
+    }
+    
+    .img-other-links img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .home-fitness-kids-deals {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-home img {
+        height: inherit;
+    }
+
+    .home-heading {
+        font-size: 26.5px;
+    }
+    
+    .home-paragraph {
+        font-size: 1.4em;
+    }
+    
+    .home-fit-kidds-aset {
+        font-size: 1.6em;
+    }
+
+    .section-eight {
+        margin: var(--BGMARGIN);
+        margin-top: 1.5em;
+        margin-bottom: 4.5em;
+    }
+
+    .konga-comments-head {
+        font-size: 30px;
+    }
+    
+    .konga-comments-txts {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .footer-other-screen {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0.9em 0.8em 1.2em 0.8em;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer-other-screen p {
+        font-size: 20px;
+    }
+
+    .except-link {
+        color: #94004f;
+    }
+
+    .footer-head, .footer-bottom, .footer-side-icon, .back-to-top {
+        display: none;
+    }
+
+    .loading-paragraph {
+        font-size: 1.1em;
+        text-align: center;
+    }
+        
+    .loading-paragraph2 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .moving-icons-child {
+        margin: .1em;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1444px) {
+    .nav-one i {
+        padding: 0 0.25em 0 0;
+    }
+
+    .nav-three i {
+        margin-left: 0.25em;
+        position: absolute;
+        top: 187px;
+    }
+
+    .help-parent-child {
+        padding: 0.9em 1em 1em 1em;
+    }
+
+    .source3-child {
+        padding: 1.75em 0.5em 1.15em 0.5em;
+    }
+
+    .store-sell {
+        width: 24.5%;
+    }
+
+    .input {
+        width: 40.5%;
+    }
+
+    .help-login-cart {
+        width: 35%;
+    }
+
+    .nav-three .second-liset .fifth-aset {
+        padding: 0.7em 0.85em 0.75em 0.85em;
+    }
+
+    .ol-aset-bottom {
+        padding: 1em 2em 1em 2em;
+    }
+
+    .categories-parent-whole:hover .all-categories, .computers-access:hover .txts-computers-access, .third-liset:hover .whole-phones-tablets, .third-liset:hover .whole-parent-electronics, .third-liset:hover .entire-konga-fashion, .third-liset:hover .entire-home-kitchen, .third-liset:hover .entire-baby-toys, .third-liset:hover .entire-beauty-care, .third-liset:hover .whole-drinks-categories, .third-liset:hover .entire-other, .second-liset:hover .txts1-computers-access, .second-liset:hover .whole-phones-tablets2, .second-liset:hover .whole-parent-electronics1, .second-liset:hover .entire-konga-fashion2, .second-liset:hover .entire-home-kitchen2, .second-liset:hover .entire-baby-toys2, .second-liset:hover .entire-beauty-care2 {
+        height: 418px;
+    }
+
+    .computers-access:hover .txts-computers-access, .third-liset:hover .whole-phones-tablets, .third-liset:hover .whole-parent-electronics, .third-liset:hover .entire-konga-fashion, .third-liset:hover .entire-home-kitchen, .third-liset:hover .entire-baby-toys, .third-liset:hover .entire-beauty-care, .third-liset:hover .whole-drinks-categories, .third-liset:hover .entire-other {
+        overflow: auto;
+        margin-left: 16.9em;
+    }
+
+    .second-liset:hover .txts1-computers-access, .second-liset:hover .whole-phones-tablets2, .second-liset:hover .whole-parent-electronics1, .second-liset:hover .entire-konga-fashion2, .second-liset:hover .entire-home-kitchen2, .second-liset:hover .entire-baby-toys2, .second-liset:hover .entire-beauty-care2 {
+        overflow: auto;
+    }
+
+    .second-liset:hover .whole-phones-tablets2 {
+        margin-left: -21.08em;
+    }
+
+    .second-liset:hover .whole-parent-electronics1 {
+        margin-left: -29.8em;
+    }
+
+    .second-liset:hover .entire-konga-fashion2 {
+        margin-left: -36em;
+    }
+
+    .second-liset:hover .entire-home-kitchen2 {
+        margin-left: -43.8em;
+    }
+
+    .second-liset:hover .entire-baby-toys2 {
+        margin-left: -52.4em;
+    }
+
+    .second-liset:hover .entire-beauty-care2 {
+        margin-left: -61.71em;
+    }
+
+    .third-liset:hover .whole-phones-tablets {
+        margin-top: -5.45em;
+    }
+
+    .third-liset:hover .whole-parent-electronics {
+        margin-top: -8.15em;
+    }
+
+    .third-liset:hover .entire-konga-fashion {
+        margin-top: -10.91em;
+    }
+
+    .third-liset:hover .entire-home-kitchen {
+        margin-top: -13.6em;
+    }
+
+    .third-liset:hover .entire-baby-toys {
+        margin-top: -16.35em;
+    }
+
+    .third-liset:hover .entire-beauty-care {
+        margin-top: -19.1em;
+    }
+
+    .third-liset:hover .whole-drinks-categories {
+        margin-top: -21.8em
+    }
+
+    .third-liset:hover .entire-other {
+        margin-top: -24.5em;
+    }
+
+    .footer-side-icon {
+        bottom: 10em;
+    }
+
+    .section-six-imgs {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .loading-paragraph {
+        font-size: 1.1em;
+        text-align: center;
+    }
+        
+    .loading-paragraph2 {
+        font-size: 0.9em;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1445px) and (max-width: 1458px) {
+    .section-one-bottom {
+        display: none;
+    }
+
+    .section-one-bottom2 {
+        display: block;
+    }
+
+    .section-one-bottom2 {
+        margin-top: 1.5em;
+        padding: 1em 0 1em 0;
+    }
+    
+    .section-one-bottom2 .first-olset2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .ol-liset-bottom2 {
+        list-style-type: none;
+    }
+    
+    .ol-aset-bottom2 {
+        text-decoration: none;
+        color: #000;
+        font-weight: 900;
+        padding: 1em 1em 1em 1em;
+        background-color: #fff;
+    }
+    
+    .ol-aset-bottom2 i {
+        color: #ed017f;
+        padding-right: 1em;
+    }
+
+    .section-six-imgs {
+        display: grid;
+        grid-template-columns: repeat(18, 1fr);
+        overflow: auto;
+    }
+
+    .konga-comments-head {
+        font-size: 33px;
+    }
+    
+    .konga-comments-txts {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+}
