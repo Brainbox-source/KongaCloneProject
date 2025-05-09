@@ -11,6 +11,3 @@ The goal of this project was to practice frontend development by replicating the
 ## Tech Stack
 - HTML – Structuring the webpage
 - CSS – Styling and responsiveness
-
-## 🌍 Live Demo
-[Explore the Project](https://kongacloneproject.netlify.app/)
