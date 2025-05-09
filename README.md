@@ -13,4 +13,4 @@ The goal of this project was to practice frontend development by replicating the
 - CSS – Styling and responsiveness
 
 ## 🌍 Live Demo
-[Explore the Project](konga-clone-project.vercel.app)
+[Explore the Project](konga-clone-project.vercel.app/)
